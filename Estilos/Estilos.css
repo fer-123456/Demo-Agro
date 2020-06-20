@@ -1,0 +1,889 @@
+
+
+/* ----------------------- REGISTRAR PRODUCTOR, COMPRADOR, TRANSPORTISTA COMUNES1----------------------- */
+
+.textoresponsive {
+font-size: calc(1em + 1vw);
+line-height: 1em;
+padding: 1em;
+margin: 1em;
+}
+
+.COMUNES1separadorinicio{
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+  .COMUNES1textobienvenida1{
+    text-align: left;
+    font: Bold 24px/20px Arial;
+    letter-spacing: 0px;
+    color: #444444;
+  }
+
+  .COMUNES1textobienvenida2{
+    text-align: left;
+    font: Normal 20px/20px Arial;
+    letter-spacing: 0px;
+    color: #444444;
+  }
+
+.COMUNES1textobienvenida3{
+  text-align: left;
+  font: Normal 26px/31px Arial;
+  letter-spacing: 0px;
+  color: #444444;
+}
+
+.COMUNES1textobienvenida4{
+  text-align: center;
+  font: Bold 24px/20px Arial;
+  letter-spacing: 0px;
+  color: #444444;
+}
+
+.COMUNES1textobienvenida5{
+  text-align: center;
+  font: Normal 20px/23px Arial;
+  letter-spacing: 0px;
+  color: #444444;
+}
+
+.COMUNES1letrapequeña{
+  text-align: center;
+  font: normal 16px/18px Arial;
+  letter-spacing: 0px;
+  color: #444444;
+}
+
+.COMUNES1productostemporada{
+  font: Bold 26px/50px Arial;
+  letter-spacing: 0px;
+  color: #232323;
+  text-align: center;
+}
+
+.COMUNES1textofin1{
+  text-align: center;
+  font: normal 22px/26px Arial;
+  letter-spacing: 0px;
+  color: #A7A3A3;
+  opacity: 1;
+}
+.COMUNES1llamenos{
+  text-align: right;
+  font: Bold 22px/26px Arial;
+  letter-spacing: 0px;
+  color: #444444;
+  opacity: 1;
+}
+
+.COMUNES1llamenos:hover{
+  text-align: right;
+  font: Bold 22px/26px Arial;
+  letter-spacing: 0px;
+  color: #84B315;
+  opacity: 1;
+}
+
+.COMUNES1escribanos{
+  text-align: left;
+  text-decoration: underline;
+  font: Bold 22px/26px Arial;
+  letter-spacing: 0px;
+  color: #444444;
+  opacity: 1;
+}
+
+.COMUNES1escribanos:hover{
+  text-align: left;
+  text-decoration: underline;
+  font: Bold 22px/26px Arial;
+  letter-spacing: 0px;
+  color: #84B315;
+  opacity: 1;
+}
+
+.COMUNES1listaimagenes{
+  max-width: 100%;
+  height: auto;
+  }
+
+  .COMUNES1links1{
+    text-align: right;
+    font: Normal 18px/21px Arial;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+  }
+
+  .COMUNES1links1:hover{
+    text-align: right;
+    font: Normal 18px/21px Arial;
+    letter-spacing: 0px;
+    color: #84B315;
+    opacity: 1;
+  }
+
+  .COMUNES1links2{
+    text-align: left;
+    font: Normal 18px/21px Arial;
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+  }
+
+  .COMUNES1links2:hover{
+    text-align: left;
+    font: Normal 18px/21px Arial;
+    letter-spacing: 0px;
+    color: #84B315;
+    opacity: 1;
+  }
+
+/* ----------------------- REGISTRAR PRODUCTOR, COMPRADOR, TRANSPORTISTA ESTILOS1----------------------- */
+
+
+.ESTILOS1lineabajacampotexto{
+  border-style: none;
+  border-bottom: #91CE01 2px solid;
+  background-color: #ACACAC ;
+  opacity: 0.9;
+}
+
+.ESTILOS1lineabajacampotexto:focus{
+  outline: 0
+}
+
+.ESTILOS1lineabajacampotexto:hover{
+  border-top: #91CE01 1px solid;
+  border-right: #91CE01 1px solid;
+  border-left: #91CE01 1px solid;
+  border-bottom: #91CE01 2px solid;
+}
+
+.ESTILOS1botones {
+  display: block;
+  width: 129px;
+  height: 42px;
+  padding: 5px 0 0 0;
+  margin: 0 auto;
+  border-right-style: solid;
+
+  background: #91CE01;
+  background: -moz-linear-gradient(top, #FFFFFF 0%, #FFFFFF 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#FFFFFF));
+
+  box-shadow: inset 0px 0px 6px #FFFFFF;
+  -webkit-box-shadow: inset 0px 0px 6px #FFFFFF;
+
+  border-top: #91CE01 2px solid;
+  border-right: #91CE01 2px solid;
+  border-left: #91CE01 2px solid;
+  border-bottom: #91CE01 2px solid;
+  border-radius: 0px;
+  border-bottom-left-radius:#CCCCCC;
+
+  font: Regular 18px/21px Arial;
+  font-weight:normal;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #91CE01;
+  text-shadow: 0px 0px 0px #91CE01;
+}
+
+.ESTILOS1botones:hover{
+  background: #91CE01 0% 0% no-repeat padding-box;
+  background-position: center;
+  font: Regular 18px/21px Arial;
+  font-weight:normal;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.ESTILOS1centrado{
+  text-align: center;
+}
+
+.ESTILOS1centrado1{
+  text-align: center;
+  font: Normal 14px/16px Arial;
+  letter-spacing: 0px;
+  color: #A7A3A3;
+  opacity: 1;
+
+}
+
+.ESTILOS1centrado2{
+  text-align: center;
+  font: Normal 12px/16px Segoe UI;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+
+}
+
+.ESTILOS1centrado3{
+  text-align: center;
+  font: Bold 16px/23px Arial;
+  letter-spacing: 0px;
+  color: #444444;
+  opacity: 1;
+
+}
+
+.ESTILOS1centrado4{
+  text-align: center;
+  font: Bold 16px/18px Arial;
+  letter-spacing: 0px;
+  color: #444444;
+  opacity: 1;
+}
+
+.ESTILOS1centrado5{
+  text-align: center;
+  font: Normal 16px/18px Arial;
+  letter-spacing: 0px;
+  color: #444444;
+  opacity: 1;
+}
+
+.ESTILOS1botones2{
+  display: block;
+  width: 129px;
+  height: 42px;
+  padding: 5px 0 0 0;
+  margin: 0 auto;
+  border-right-style: solid;
+
+  background: #91CE01;
+  background: -moz-linear-gradient(top, #FFFFFF 0%, #FFFFFF 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#FFFFFF));
+
+  box-shadow: inset 0px 0px 6px #FFFFFF;
+  -webkit-box-shadow: inset 0px 0px 6px #FFFFFF;
+
+  border-top: #91CE01 2px solid;
+  border-right: #91CE01 2px solid;
+  border-left: #91CE01 2px solid;
+  border-bottom: #91CE01 2px solid;
+  border-radius: 0px;
+  border-bottom-left-radius:#CCCCCC;
+
+  font: Regular 18px/21px Arial;
+  font-weight:normal;
+  text-align: CENTER;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #91CE01;
+  text-shadow: 0px 0px 0px #91CE01;
+}
+
+.ESTILOS1botones2:hover{
+  background: #91CE01 0% 0% no-repeat padding-box;
+  background-position: left;
+  font: Regular 18px/21px Arial;
+  font-weight:normal;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.ESTILOS1botones3{
+  display: block;
+  /* width: 129px;
+  height: 42px;  */
+  width: 450px;
+  height: 42px
+  padding: 5px 0 0 0;
+  margin: 0 auto;
+  border-right-style: solid;
+
+  background: #91CE01;
+  background: -moz-linear-gradient(top, #FFFFFF 0%, #FFFFFF 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#FFFFFF));
+
+  box-shadow: inset 0px 0px 6px #FFFFFF;
+  -webkit-box-shadow: inset 0px 0px 6px #FFFFFF;
+
+  border-top: #91CE01 2px solid;
+  border-right: #91CE01 2px solid;
+  border-left: #91CE01 2px solid;
+  border-bottom: #91CE01 2px solid;
+  border-radius: 0px;
+  border-bottom-left-radius:#CCCCCC;
+
+  font: Regular 18px/21px Arial;
+  font-weight:normal;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #91CE01;
+  text-shadow: 0px 0px 0px #91CE01;
+}
+
+.ESTILOS1botones3:hover{
+  background: #91CE01 0% 0% no-repeat padding-box;
+  background-position: center;
+  font: Regular 18px/21px Arial;
+  font-weight:normal;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+/* ----------------------- PANTALLAS DE DOS OPCIONES - ESTILOS2----------------------- */
+
+
+.ESTILOS2botones{
+  background-image: url("/AGRO-RISARALDA/imagenes/TRANSPORTADORcelular.png");
+  width: 300px;
+  height: 302px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50% 40%;
+  position: relative;
+  border-top: #91CE01 2px solid;
+  border-right: #91CE01 2px solid;
+  border-left: #91CE01 2px solid;
+  border-bottom: #91CE01 2px solid;
+
+  text-align: center;
+  font: Bold 18px/21px Arial;
+  letter-spacing: 0px;
+  color: #444444;
+  opacity: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 230px 0 0 0;
+  color: #444444;
+}
+
+.ESTILOS2botones0:focus{
+  outline: 0
+}
+
+.ESTILOS2botones0:hover{
+  background: url("/AGRO-RISARALDA/imagenes/TRANSPORTADORcelular.png") no-repeat;
+  background-position: center;
+  background-size: 53% 43%;
+  padding: 230px 0 0 0;
+}
+
+.ESTILOS2botones2{
+  background-image: url("/AGRO-RISARALDA/imagenes/TRANSPORTADORcomputador.png");
+  width: 300px;
+  height: 302px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50% 40%;
+  position: relative;
+  border-top: #91CE01 2px solid;
+  border-right: #91CE01 2px solid;
+  border-left: #91CE01 2px solid;
+  border-bottom: #91CE01 2px solid;
+
+  text-align: center;
+  font: Bold 18px/21px Arial;
+  letter-spacing: 0px;
+  color: #444444;
+  opacity: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 230px 0 0 0;
+  color: #444444;
+}
+
+.ESTILOS2botones2:focus{
+  outline: 0
+}
+
+.ESTILOS2botones2:hover{
+  background: url("/AGRO-RISARALDA/imagenes/TRANSPORTADORcomputador.png") no-repeat;
+  background-position: center;
+  background-size: 47% 37%;
+  padding: 230px 0 0 0;
+}
+
+.ESTILOS2botones3{
+  background-image: url("/AGRO-RISARALDA/imagenes/COMPRADORyatengocuenta.png");
+  width: 300px;
+  height: 302px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 55% 45%;
+  position: relative;
+  border-top: #91CE01 2px solid;
+  border-right: #91CE01 2px solid;
+  border-left: #91CE01 2px solid;
+  border-bottom: #91CE01 2px solid;
+
+  text-align: center;
+  font: Bold 18px/21px Arial;
+  letter-spacing: 0px;
+  color: #444444;
+  opacity: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 230px 0 0 0;
+  color: #444444;
+}
+
+.ESTILOS2botones3:focus{
+  outline: 0
+}
+
+.ESTILOS2botones3:hover{
+  background: url("/AGRO-RISARALDA/imagenes/COMPRADORyatengocuenta.png") no-repeat;
+  background-position: center;
+  background-size: 53% 43%;
+  padding: 230px 0 0 0;
+}
+
+.ESTILOS2botones4 {
+  background-image: url("/AGRO-RISARALDA/imagenes/COMPRADORquierocrearunacuenta.png");
+  width: 300px;
+  height: 302px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50% 40%;
+  position: relative;
+  border-top: #91CE01 2px solid;
+  border-right: #91CE01 2px solid;
+  border-left: #91CE01 2px solid;
+  border-bottom: #91CE01 2px solid;
+
+  text-align: center;
+  font: Bold 18px/21px Arial;
+  letter-spacing: 0px;
+  color: #444444;
+  opacity: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 230px 0 0 0;
+  color: #444444;
+}
+
+.ESTILOS2botones4:focus{
+  outline: 0
+}
+
+.ESTILOS2botones4:hover{
+  background: url("/AGRO-RISARALDA/imagenes/COMPRADORquierocrearunacuenta.png") no-repeat;
+  background-position: center;
+  background-size: 47% 37%;
+  padding: 230px 0 0 0;
+}
+
+.ESTILOS2botones5{
+  background-image: url("/AGRO-RISARALDA/imagenes/COMPRADORnecesitotransporte.png");
+  width: 300px;
+  height: 302px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 55% 45%;
+  position: relative;
+  border-top: #91CE01 2px solid;
+  border-right: #91CE01 2px solid;
+  border-left: #91CE01 2px solid;
+  border-bottom: #91CE01 2px solid;
+
+  text-align: center;
+  font: Bold 18px/21px Arial;
+  letter-spacing: 0px;
+  color: #444444;
+  opacity: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 230px 0 0 0;
+  color: #444444;
+}
+
+.ESTILOS2botones5:focus{
+  outline: 0
+}
+
+.ESTILOS2botones5:hover{
+  background: url("/AGRO-RISARALDA/imagenes/COMPRADORnecesitotransporte.png") no-repeat;
+  background-position: center;
+  background-size: 53% 43%;
+  padding: 230px 0 0 0;
+}
+
+.ESTILOS2botones6{
+  background-image: url("/AGRO-RISARALDA/imagenes/COMPRADORyorecojomiproducto.png");
+  width: 300px;
+  height: 302px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50% 40%;
+  position: relative;
+  border-top: #91CE01 2px solid;
+  border-right: #91CE01 2px solid;
+  border-left: #91CE01 2px solid;
+  border-bottom: #91CE01 2px solid;
+
+  text-align: center;
+  font: Bold 18px/21px Arial;
+  letter-spacing: 0px;
+  color: #444444;
+  opacity: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 230px 0 0 0;
+  color: #444444;
+}
+
+.ESTILOS2botones6:focus{
+  outline: 0
+}
+
+.ESTILOS2botones6:hover{
+  background: url("/AGRO-RISARALDA/imagenes/COMPRADORyorecojomiproducto.png") no-repeat;
+  background-position: center;
+  background-size: 47% 37%;
+  padding: 230px 0 0 0;
+}
+
+.ESTILOS2botones7{
+  background-image: url("/AGRO-RISARALDA/imagenes/TRANSPORTADORcrearcuenta.png");
+  width: 300px;
+  height: 302px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 55% 45%;
+  position: relative;
+  border-top: #91CE01 2px solid;
+  border-right: #91CE01 2px solid;
+  border-left: #91CE01 2px solid;
+  border-bottom: #91CE01 2px solid;
+
+  text-align: center;
+  font: Bold 18px/21px Arial;
+  letter-spacing: 0px;
+  color: #444444;
+  opacity: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 230px 0 0 0;
+  color: #444444;
+}
+
+.ESTILOS2botones7:focus{
+  outline: 0
+}
+
+.ESTILOS2botones7:hover{
+  background: url("/AGRO-RISARALDA/imagenes/TRANSPORTADORcrearcuenta.png") no-repeat;
+  background-position: center;
+  background-size: 53% 43%;
+  padding: 230px 0 0 0;
+}
+
+.ESTILOS2botones8{
+  background-image: url("/AGRO-RISARALDA/imagenes/TRANSPORTADORyatengocuenta.png");
+  width: 300px;
+  height: 302px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50% 40%;
+  position: relative;
+  border-top: #91CE01 2px solid;
+  border-right: #91CE01 2px solid;
+  border-left: #91CE01 2px solid;
+  border-bottom: #91CE01 2px solid;
+
+  text-align: center;
+  font: Bold 18px/21px Arial;
+  letter-spacing: 0px;
+  color: #444444;
+  opacity: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 230px 0 0 0;
+  color: #444444;
+}
+
+.ESTILOS2botones8:focus{
+  outline: 0
+}
+
+.ESTILOS2botones8:hover{
+  background: url("/AGRO-RISARALDA/imagenes/TRANSPORTADORyatengocuenta.png") no-repeat;
+  background-position: center;
+  background-size: 47% 37%;
+  padding: 230px 0 0 0;
+}
+
+.ESTILOS2botones1{
+  background-image: url("/AGRO-RISARALDA/imagenes/TRANSPORTADORCELULAR.png");
+  width: 300px;
+  height: 302px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50% 40%;
+  position: relative;
+  border-top: #91CE01 2px solid;
+  border-right: #91CE01 2px solid;
+  border-left: #91CE01 2px solid;
+  border-bottom: #91CE01 2px solid;
+
+  text-align: center;
+  font: Bold 18px/21px Arial;
+  letter-spacing: 0px;
+  color: #444444;
+  opacity: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 230px 0 0 0;
+  color: #444444;
+}
+
+.ESTILOS2botones1:focus{
+  outline: 0
+}
+
+.ESTILOS2botones1:hover{
+  background: url("/AGRO-RISARALDA/imagenes/TRANSPORTADORCELULAR.png") no-repeat;
+  background-position: center;
+  background-size: 47% 37%;
+  padding: 230px 0 0 0;
+}
+
+.ESTILOS2botones9{
+  background-image: url("/AGRO-RISARALDA/imagenes/PRODUCTORtengocuenta.png");
+  width: 300px;
+  height: 302px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50% 40%;
+  position: relative;
+  border-top: #91CE01 2px solid;
+  border-right: #91CE01 2px solid;
+  border-left: #91CE01 2px solid;
+  border-bottom: #91CE01 2px solid;
+
+  text-align: center;
+  font: Bold 18px/21px Arial;
+  letter-spacing: 0px;
+  color: #444444;
+  opacity: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 230px 0 0 0;
+  color: #444444;
+}
+
+.ESTILOS2botones9:focus{
+  outline: 0
+}
+
+.ESTILOS2botones9:hover{
+  background: url("?AGRO-RISARALDA/imagenes/PRODUCTORtengocuenta.png") no-repeat;
+  background-position: center;
+  background-size: 47% 37%;
+  padding: 230px 0 0 0;
+}
+
+.ESTILOS2botones10{
+  background-image: url("/AGRO-RISARALDA/imagenes/PRODUCTORnotengocuenta.png");
+  width: 300px;
+  height: 302px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50% 40%;
+  position: relative;
+  border-top: #91CE01 2px solid;
+  border-right: #91CE01 2px solid;
+  border-left: #91CE01 2px solid;
+  border-bottom: #91CE01 2px solid;
+
+  text-align: center;
+  font: Bold 18px/21px Arial;
+  letter-spacing: 0px;
+  color: #444444;
+  opacity: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 230px 0 0 0;
+  color: #444444;
+  }
+
+.ESTILOS2botones10:focus{
+  outline: 0
+}
+
+.ESTILOS2botones10:hover{
+  background: url("/AGRO-RISARALDA/imagenes/PRODUCTORnotengocuenta.png") no-repeat;
+  background-position: center;
+  background-size: 47% 37%;
+  padding: 230px 0 0 0;
+  }
+
+/* ----------------------- CARGAR DOCUMENTOS, FOTOS - ESTILOS3----------------------- */
+
+
+.ESTILOS3cargar1 {
+  background-image: url("/AGRO-RISARALDA/imagenes/TRANSPORTADORvehiculo1.png");
+  width: 552px;
+  height: 324px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 85% 65%;
+  position: relative;
+  border: #444444 2px solid
+
+  text-align: center;
+  font: Normal 16px/18px Arial;
+  letter-spacing: 0px;
+  color: #444444;
+  opacity: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 35px;
+  color: white;
+
+  border-color: #aaaaaa;
+  border: 2px;
+  border-style: solid;
+  box-shadow: 8px 8px 10px #00000029;
+}
+
+.ESTILOS3cargar1:focus{
+  outline: 0
+}
+
+.ESTILOS3cargar2 {
+  background-image: url("/AGRO-RISARALDA/imagenes/TRANSPORTADORcedula1.png");
+  width: 552px;
+  height: 324px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 85% 65%;
+  position: relative;
+  border: #444444 2px solid
+
+  text-align: center;
+  font: Normal 16px/18px Arial;
+  letter-spacing: 0px;
+  color: #444444;
+  opacity: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 35px;
+  color: white;
+
+  border-color: #aaaaaa;
+  border: 2px;
+  border-style: solid;
+  box-shadow: 8px 8px 10px #00000029;
+}
+
+.ESTILOS3cargar2:focus{
+  outline: 0
+}
+
+.ESTILOS3cargar3 {
+  background-image: url("/AGRO-RISARALDA/imagenes/TRANSPORTADORdocumento1.png");
+  width: 552px;
+  height: 324px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 85% 65%;
+  position: relative;
+  border: #444444 2px solid
+
+  text-align: center;
+  font: Normal 16px/18px Arial;
+  letter-spacing: 0px;
+  color: #444444;
+  opacity: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 35px;
+  color: white;
+
+  border-color: #aaaaaa;
+  border: 2px;
+  border-style: solid;
+  box-shadow: 8px 8px 10px #00000029;
+}
+
+.ESTILOS3cargar3:focus{
+  outline: 0
+}
+
+}
+
+.ESTILOS3botones3 {
+  display: block;
+  width: 129px;
+  height: 42px;
+  padding: 5px 0 0 0;
+  margin: 0 auto;
+  border-right-style: solid;
+
+  background: #91CE01;
+  background: -moz-linear-gradient(top, #FFFFFF 0%, #FFFFFF 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#FFFFFF));
+
+  box-shadow: inset 0px 0px 6px #FFFFFF;
+  -webkit-box-shadow: inset 0px 0px 6px #FFFFFF;
+
+  border-top: #91CE01 2px solid;
+  border-right: #91CE01 2px solid;
+  border-left: #91CE01 2px solid;
+  border-bottom: #91CE01 2px solid;
+  border-radius: 0px;
+  border-bottom-left-radius:#CCCCCC;
+
+  font: Regular 18px/21px Arial;
+  font-weight:normal;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #91CE01;
+  text-shadow: 0px 0px 0px #91CE01;
+}
+
+.ESTILOS3botones3:hover{
+  background: #91CE01 0% 0% no-repeat padding-box;
+  background-position: center;
+  font: Regular 18px/21px Arial;
+  font-weight:normal;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+
+/* -----------------------  ----------------------- */
+/* -----------------------  ----------------------- */
+/* -----------------------  ----------------------- */
+/* -----------------------  ----------------------- */
+/* -----------------------  ----------------------- */
