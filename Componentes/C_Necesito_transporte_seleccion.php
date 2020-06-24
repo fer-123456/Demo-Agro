@@ -8,7 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="/PRUEBAS/Estilos/Estilos.css">
+    <link rel="stylesheet" type="text/css" href="/AGRO-RISARALDA/Estilos/Estilos.css">
 
     <title>Seleccion de transporte</title>
 
@@ -23,7 +23,7 @@
   <br>
   <div class="row-12">
     <div class="">
-      <img src="\PRUEBAS\imagenes\ENCABEZADOLogo.png" alt="De mi tierrita">
+      <img src="\AGRO-RISARALDA\imagenes\ENCABEZADOLogo.png" alt="De mi tierrita">
     </div>
   </div>
 </div>
@@ -38,7 +38,7 @@
 <div class="container">
   <br>
       <div class="form-group">
-        <img src="\PRUEBAS\imagenes\COMPRADORtransporte.png" alt="Necesito transporte">
+        <img src="\AGRO-RISARALDA\imagenes\COMPRADORtransporte.png" alt="Necesito transporte">
         <label class="COMUNES1textobienvenida1" for=""><b>Seleccionar transporte</b></label><br>
         <br>
 
@@ -56,7 +56,7 @@
       <div class="row">
               <div class="col-md-3">
                 <div class="card mb-4 box-shadow">
-                  <img src="\PRUEBAS\imagenes\TRANSPORTADOR_vehiculos1.png" alt="Vehiculos Disponibles">
+                  <img src="\AGRO-RISARALDA\imagenes\TRANSPORTADOR_vehiculos1.png" alt="Vehiculos Disponibles">
                     <!-- <div class="card-body"> -->
                       <label class="ESTILOS1centrado1"></label>
                       <label class="ESTILOS1centrado1">Fernando Lopez</label>
@@ -69,7 +69,7 @@
               </div>
               <div class="col-md-3">
                 <div class="card mb-4 box-shadow">
-                  <img src="\PRUEBAS\imagenes\TRANSPORTADOR_vehiculos1.png" alt="Vehiculos Disponibles">
+                  <img src="\AGRO-RISARALDA\imagenes\TRANSPORTADOR_vehiculos1.png" alt="Vehiculos Disponibles">
                     <!-- <div class="card-body"> -->
                       <label class="ESTILOS1centrado1"></label>
                       <label class="ESTILOS1centrado1">Fernando Lopez</label>
@@ -82,7 +82,7 @@
               </div>
               <div class="col-md-3">
                 <div class="card mb-4 box-shadow">
-                  <img src="\PRUEBAS\imagenes\TRANSPORTADOR_vehiculos1.png" alt="Vehiculos Disponibles">
+                  <img src="\AGRO-RISARALDA\imagenes\TRANSPORTADOR_vehiculos1.png" alt="Vehiculos Disponibles">
                     <!-- <div class="card-body"> -->
                       <label class="ESTILOS1centrado1"></label>
                       <label class="ESTILOS1centrado1">Fernando Lopez</label>
@@ -95,7 +95,7 @@
               </div>
               <div class="col-md-3">
                 <div class="card mb-4 box-shadow">
-                  <img src="\PRUEBAS\imagenes\TRANSPORTADOR_vehiculos1.png" alt="Vehiculos Disponibles">
+                  <img src="\AGRO-RISARALDA\imagenes\TRANSPORTADOR_vehiculos1.png" alt="Vehiculos Disponibles">
                     <!-- <div class="card-body"> -->
                       <label class="ESTILOS1centrado1"></label>
                       <label class="ESTILOS1centrado1">Fernando Lopez</label>
@@ -110,7 +110,7 @@
       <div class="row">
         <div class="col-md-3">
           <div class="card mb-4 box-shadow">
-            <img src="\PRUEBAS\imagenes\TRANSPORTADOR_vehiculos2.png" alt="Vehiculos Disponibles">
+            <img src="\AGRO-RISARALDA\imagenes\TRANSPORTADOR_vehiculos2.png" alt="Vehiculos Disponibles">
               <!-- <div class="card-body"> -->
                 <label class="ESTILOS1centrado1"></label>
                 <label class="ESTILOS1centrado1">Arturo Espinoza</label>
@@ -123,7 +123,7 @@
         </div>
         <div class="col-md-3">
           <div class="card mb-4 box-shadow">
-            <img src="\PRUEBAS\imagenes\TRANSPORTADOR_vehiculos2.png" alt="Vehiculos Disponibles">
+            <img src="\AGRO-RISARALDA\imagenes\TRANSPORTADOR_vehiculos2.png" alt="Vehiculos Disponibles">
               <!-- <div class="card-body"> -->
                 <label class="ESTILOS1centrado1"></label>
                 <label class="ESTILOS1centrado1">Arturo Espinoza</label>
@@ -136,7 +136,7 @@
         </div>
         <div class="col-md-3">
           <div class="card mb-4 box-shadow">
-            <img src="\PRUEBAS\imagenes\TRANSPORTADOR_vehiculos2.png" alt="Vehiculos Disponibles">
+            <img src="\AGRO-RISARALDA\imagenes\TRANSPORTADOR_vehiculos2.png" alt="Vehiculos Disponibles">
               <!-- <div class="card-body"> -->
                 <label class="ESTILOS1centrado1"></label>
                 <label class="ESTILOS1centrado1">Arturo Espinoza</label>
@@ -149,7 +149,7 @@
         </div>
         <div class="col-md-3">
           <div class="card mb-4 box-shadow">
-            <img src="\PRUEBAS\imagenes\TRANSPORTADOR_vehiculos2.png" alt="Vehiculos Disponibles">
+            <img src="\AGRO-RISARALDA\imagenes\TRANSPORTADOR_vehiculos2.png" alt="Vehiculos Disponibles">
               <!-- <div class="card-body"> -->
                 <label class="ESTILOS1centrado1"></label>
                 <label class="ESTILOS1centrado1">Arturo Espinoza</label>
@@ -190,12 +190,12 @@
   <div class="row">
         <div class="col-6">
           <div class="COMUNES1llamenos">
-            <img src="\PRUEBAS\imagenes\FOOTERcontactotelefono.jpg" alt="Llame al 318 7076267"><label for="">Llame al 310 246 5678    ó &nbsp</label>
+            <img src="\AGRO-RISARALDA\imagenes\FOOTERcontactotelefono.jpg" alt="Llame al 318 7076267"><label for="">Llame al 310 246 5678    ó &nbsp</label>
           </div>
         </div>
         <div class="col-6">
           <div class="COMUNES1escribanos">
-        <a href="https://api.whatsapp.com/send?phone=3187076267&text=Bienvenido%20al%20soporte%20De%20Mi%20Tierrita.%20En%20que%20podemos%20ayudarte?" target="_blank" class="COMUNES1escribanos"><label for=""><u>Escríbanos para responderle</u></label><img src="\PRUEBAS\imagenes\FOOTERcontactochat.jpg" alt="Escríbanos para responderle">
+        <a href="https://api.whatsapp.com/send?phone=3187076267&text=Bienvenido%20al%20soporte%20De%20Mi%20Tierrita.%20En%20que%20podemos%20ayudarte?" target="_blank" class="COMUNES1escribanos"><label for=""><u>Escríbanos para responderle</u></label><img src="\AGRO-RISARALDA\imagenes\FOOTERcontactochat.jpg" alt="Escríbanos para responderle">
         </div>
         </div>
     </div>

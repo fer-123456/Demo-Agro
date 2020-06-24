@@ -3,7 +3,7 @@
 		<div class="navbar-header">			
 			<a class="navbar-brand" href="?menu=home">
 			<span class="glyphicon" aria-hidden="true" ></span>
-			Proyecto Agro
+			Proyecto AGRO-RISARALDA
 			</a>
 		</div>
 			<ul class="nav navbar-nav">

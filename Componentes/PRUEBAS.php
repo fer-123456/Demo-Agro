@@ -7,7 +7,7 @@
 	$usuario = "root";
 	$password = "";
 	$servidor = "localhost";
-	$basededatos = "proyectoagro";
+	$basededatos = "proyectoAGRO-RISARALDA";
 
 	// creación de la conexión a la base de datos con mysql_connect()
 	$conexion = mysqli_connect( $servidor, $usuario, "" ) or die ("No se ha podido conectar al servidor de Base de datos");

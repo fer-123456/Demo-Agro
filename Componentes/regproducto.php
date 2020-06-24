@@ -14,7 +14,7 @@ $usuario=$_SESSION['username'];
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="/AGRO/Estilos/Estilos.css">
+    <link rel="stylesheet" type="text/css" href="/AGRO-RISARALDA/Estilos/Estilos.css">
 
     <title>Registro Productor </title>
 
@@ -28,7 +28,7 @@ $usuario=$_SESSION['username'];
   <br>
     <div class="row-12">
     <div class="">
-      <img src="\AGRO\imagenes\ENCABEZADOLogo.png" alt="De mi tierrita">
+      <img src="\AGRO-RISARALDA\imagenes\ENCABEZADOLogo.png" alt="De mi tierrita">
       <a href="" style="float:right;" ><?php echo "<h2>! hola $usuario ¡</h2>"?> </a><br>
        <a href="destroysesion.php" style="left : 950px; position :relative; top : -50px;" ><?php echo "<h6>!Cerrar sesion ¡</h6>"?></a> 
     </div>
@@ -66,7 +66,7 @@ $usuario=$_SESSION['username'];
               <label class="COMUNES1textobienvenida3" for=""><b>Para publicar el producto necesitamos algunos datos</b></label>
           </div>
 
-             <img src="\AGRO\imagenes\fruit.png" alt="De mi tierrita" id="fruit">
+             <img src="\AGRO-RISARALDA\imagenes\fruit.png" alt="De mi tierrita" id="fruit">
              <label id="texto" class="COMUNES1textobienvenida6">Seleccione que producto va a vender :<b></b></label>
              <input  id="frutas" name="nombre" placeholder="Buscar producto">
            </div>
@@ -77,7 +77,7 @@ $usuario=$_SESSION['username'];
             <div class="row">
                 <div class="col-md-3">
                     <div class="card mb-4 box-shadow">
-                       <img src="\AGRO\imagenes\1917.png" alt="De mi tierrita">
+                       <img src="\AGRO-RISARALDA\imagenes\1917.png" alt="De mi tierrita">
                        <!-- <div class="card-body"> -->
                        <label class="ESTILOS1centrado1"></label>
                        <label class="ESTILOS1centrado1">Frutas</label>
@@ -88,7 +88,7 @@ $usuario=$_SESSION['username'];
                 </div>
                <div class="col-md-3">
                    <div class="card mb-4 box-shadow">
-                       <img src="\AGRO\imagenes\red-tomatoes-1367243.png" alt="De mi tierrita">
+                       <img src="\AGRO-RISARALDA\imagenes\red-tomatoes-1367243.png" alt="De mi tierrita">
                        <!-- <div class="card-body"> -->
                        <label class="ESTILOS1centrado1"></label>
                        <label class="ESTILOS1centrado1">Frutas</label>
@@ -281,12 +281,12 @@ border:3px solid #84B315;
   <div class="row">
         <div class="col-6">
           <div class="COMUNES1llamenos">
-            <img src="\AGRO\imagenes\FOOTERcontactotelefono.jpg" alt="Llame al 318 7076267"><label for="">Llame al 310 246 5678    ó &nbsp</label>
+            <img src="\AGRO-RISARALDA\imagenes\FOOTERcontactotelefono.jpg" alt="Llame al 318 7076267"><label for="">Llame al 310 246 5678    ó &nbsp</label>
           </div>
         </div>
         <div class="col-6">
           <div class="COMUNES1escribanos">
-        <a href="https://api.whatsapp.com/send?phone=3187076267&text=Bienvenido%20al%20soporte%20De%20Mi%20Tierrita.%20En%20que%20podemos%20ayudarte?" target="_blank" class="COMUNES1escribanos"><label for=""><u>Escríbanos para responderle</u></label><img src="\AGRO\imagenes\FOOTERcontactochat.jpg" alt="Escríbanos para responderle">
+        <a href="https://api.whatsapp.com/send?phone=3187076267&text=Bienvenido%20al%20soporte%20De%20Mi%20Tierrita.%20En%20que%20podemos%20ayudarte?" target="_blank" class="COMUNES1escribanos"><label for=""><u>Escríbanos para responderle</u></label><img src="\AGRO-RISARALDA\imagenes\FOOTERcontactochat.jpg" alt="Escríbanos para responderle">
         </div>
         </div>
     </div>

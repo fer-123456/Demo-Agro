@@ -22,7 +22,7 @@ $usuario=$_SESSION['username'];
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
-    <link rel="stylesheet" type="text/css" href="/AGRO/Estilos/Estilos.css">
+    <link rel="stylesheet" type="text/css" href="/AGRO-RISARALDA/Estilos/Estilos.css">
     <link rel="stylesheet" type="text/css" href="/AGRO-RISARALDA/Estilos/confirmacion.css">
  
 
@@ -50,7 +50,7 @@ $usuario=$_SESSION['username'];
 
 <div class="">
 
-       <img src="\AGRO\imagenes\ENCABEZADOLogo.png" alt="De mi tierrita">
+       <img src="\AGRO-RISARALDA\imagenes\ENCABEZADOLogo.png" alt="De mi tierrita">
 
 
 </div>
@@ -89,7 +89,7 @@ $usuario=$_SESSION['username'];
 
     <div class="form-group">
 
-    <img src="\AGRO\imagenes\farmer.png" alt="De mi tierrita" id="naranja"><br><br>
+    <img src="\AGRO-RISARALDA\imagenes\farmer.png" alt="De mi tierrita" id="naranja"><br><br>
 
     
 

@@ -129,12 +129,12 @@
   <div class="row">
         <div class="col-6">
           <div class="COMUNES1llamenos">
-            <img src="\PRUEBAS\imagenes\FOOTERcontactotelefono.jpg" alt="Llame al 318 7076267"><label for="">Llame al 310 246 5678    ó &nbsp</label>
+            <img src="\AGRO-RISARALDA\imagenes\FOOTERcontactotelefono.jpg" alt="Llame al 318 7076267"><label for="">Llame al 310 246 5678    ó &nbsp</label>
           </div>
         </div>
         <div class="col-6">
           <div class="COMUNES1escribanos">
-        <a href="https://api.whatsapp.com/send?phone=3187076267&text=Bienvenido%20al%20soporte%20De%20Mi%20Tierrita.%20En%20que%20podemos%20ayudarte?" target="_blank" class="COMUNES1escribanos"><label for=""><u>Escríbanos para responderle</u></label><img src="\PRUEBAS\imagenes\FOOTERcontactochat.jpg" alt="Escríbanos para responderle">
+        <a href="https://api.whatsapp.com/send?phone=3187076267&text=Bienvenido%20al%20soporte%20De%20Mi%20Tierrita.%20En%20que%20podemos%20ayudarte?" target="_blank" class="COMUNES1escribanos"><label for=""><u>Escríbanos para responderle</u></label><img src="\AGRO-RISARALDA\imagenes\FOOTERcontactochat.jpg" alt="Escríbanos para responderle">
         </div>
         </div>
     </div>
