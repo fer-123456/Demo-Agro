@@ -54,6 +54,13 @@ margin: 1em;
   color: #444444;
 }
 
+.COMUNES1textobienvenida6{
+  text-align: center;
+  font: Normal 24px/28px Arial;
+  letter-spacing: 0px;
+  color: #707070;
+}
+
 .COMUNES1letrapequeña{
   text-align: center;
   font: normal 16px/18px Arial;
@@ -199,6 +206,48 @@ margin: 1em;
 }
 
 .ESTILOS1botones:hover{
+  background: #91CE01 0% 0% no-repeat padding-box;
+  background-position: center;
+  font: Regular 18px/21px Arial;
+  font-weight:normal;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.ESTILOS1botones11 {
+  display: block;
+  width: 180px;
+  height: 42px;
+  padding: 5px 0 0 0;
+  margin: 0 auto;
+  border-right-style: solid;
+
+  background: #91CE01;
+  background: -moz-linear-gradient(top, #FFFFFF 0%, #FFFFFF 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#FFFFFF));
+
+  box-shadow: inset 0px 0px 6px #FFFFFF;
+  -webkit-box-shadow: inset 0px 0px 6px #FFFFFF;
+
+  border-top: #91CE01 2px solid;
+  border-right: #91CE01 2px solid;
+  border-left: #91CE01 2px solid;
+  border-bottom: #91CE01 2px solid;
+  border-radius: 0px;
+  border-bottom-left-radius:#CCCCCC;
+
+  font: Regular 18px/21px Arial;
+  font-weight:normal;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #91CE01;
+  text-shadow: 0px 0px 0px #91CE01;
+}
+
+.ESTILOS1botones11:hover{
   background: #91CE01 0% 0% no-repeat padding-box;
   background-position: center;
   font: Regular 18px/21px Arial;
@@ -670,7 +719,7 @@ margin: 1em;
 }
 
 .ESTILOS2botones9{
-  background-image: url("/AGRO-RISARALDA/imagenes/PRODUCTORtengocuenta.png");
+  background-image: url("/AGRO-RISARALDA/imagenes/grupo 136.png");
   width: 300px;
   height: 302px;
   background-position: center;
@@ -699,14 +748,14 @@ margin: 1em;
 }
 
 .ESTILOS2botones9:hover{
-  background: url("?AGRO-RISARALDA/imagenes/PRODUCTORtengocuenta.png") no-repeat;
+  background-image: url("/AGRO-RISARALDA/imagenes/Grupo 136.png") no-repeat;
   background-position: center;
   background-size: 47% 37%;
   padding: 230px 0 0 0;
 }
 
 .ESTILOS2botones10{
-  background-image: url("/AGRO-RISARALDA/imagenes/PRODUCTORnotengocuenta.png");
+  background-image: url("/AGRO-RISARALDA/imagenes/Grupo 137.png");
   width: 300px;
   height: 302px;
   background-position: center;
@@ -735,7 +784,7 @@ margin: 1em;
 }
 
 .ESTILOS2botones10:hover{
-  background: url("/AGRO-RISARALDA/imagenes/PRODUCTORnotengocuenta.png") no-repeat;
+  background: url("/AGRO-RISARALDA/imagenes/Grupo 137.png") no-repeat;
   background-position: center;
   background-size: 47% 37%;
   padding: 230px 0 0 0;
@@ -879,6 +928,20 @@ margin: 1em;
   text-transform: uppercase;
   text-decoration: none;
   color: #FFFFFF;
+}
+
+#cuadro_pequeño{
+  position : relative;
+  top: 473px;
+  left: 1098px;
+  width: 268px;
+  height: 115px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 8px 8px 10px #00000029;
+  border-radius: 57px 0px 0px 57px;
+  opacity: 1;
+  border: 1px solid #707070;
+
 }
 
 

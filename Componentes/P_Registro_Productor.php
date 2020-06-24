@@ -187,7 +187,7 @@
               
           </div>
           <div class="col-xs-3 col-sm-2">
-              <button type="submit" class="ESTILOS1botones" name="continuar">CONTINUAR</button>
+              <button type="submit" class="ESTILOS1botones" name="continuar">CREAR</button>
               <script type="text/javascript">
             document.getElementById("continuar").onclick = function () {
             location.href = "formulario_producto.php";

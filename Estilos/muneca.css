@@ -1,0 +1,135 @@
+#escribir{
+
+    position:relative;
+
+  top: -150px;
+
+left: 130px;
+
+color: #84B315;
+
+ 
+
+   }
+
+ 
+
+   #llamar{
+
+    position:relative;
+
+  top: -150px;
+
+left: 120px;
+
+color: #84B315;
+
+ 
+
+   }
+
+ 
+
+   #helo2{
+
+    position:relative;
+
+  top: -125px;
+
+left: 140px;
+
+ 
+
+   }
+
+ 
+
+   #helo1{
+
+    position:relative;
+
+  top: -95px;
+
+left: 120px;
+
+ 
+
+   }
+
+ 
+
+   #helo{
+
+ 
+
+    position:relative;
+
+  top: -75px;
+
+left: 150px;
+
+   }
+
+ 
+
+#niña{
+
+position:relative;
+
+  top: 15px;
+
+left: 40px;
+
+width: 70px;
+
+height: 94px;
+
+ 
+
+}
+
+ 
+
+#colombia{
+
+  position:relative;
+
+  top: -240px;
+
+left: 855px;
+
+width: 268px;
+
+height: 115px;
+
+ 
+
+background: #FFFFFF 0% 0% no-repeat padding-box;
+
+box-shadow: 8px 8px 10px #00000029;
+
+border-radius: 57px 0px 0px 57px;
+
+opacity: 1;
+
+   
+
+   
+
+   border:3px solid #00000029;;
+
+}
+
+ 
+
+#temp{
+
+  position:relative;
+
+  top: -25px;
+
+left: 370px;
+
+ 
+
+}
