@@ -1,3 +1,8 @@
+<?php
+session_start();
+$usuario=$_SESSION['username'];
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -25,6 +30,8 @@
 
 <div class="">
        <img src="\AGRO\imagenes\ENCABEZADOLogo.png" alt="De mi tierrita">
+       <a href="" style="float:right;" ><?php echo "<h2>! hola $usuario ¡</h2>"?> </a>
+       
 </div>
 </div>
 </div>
@@ -40,24 +47,24 @@
 
 
 <!--  Formulario ------------col-12 col-xs-12 col-sm-12 col-lg-12-------------------------------->
-
+<div class="container">
 <div id="rectangle">
 
     <div id="circulo"><h3 id="hp">Producto</h3></div> 
-    <div id="circulo1"><h3 id="hc">Caracateristica</h3></div>  
-    <div id="circulo2"><h3 id="hu">Ubicacion</h3></div>
+    <div id="circulo1"><h3 id="hc">Caracteristicas</h3></div>  
+    <div id="circulo2"><h3 id="hu">Ubicación</h3></div>
 
 
 
     <div class="form-group">
-        <label class="COMUNES1textobienvenida2" for="">Ya falta poco<b></b></label>
+        <label class="COMUNES1textobienvenida3" for=""><b>Ya falta poco</b></label>
     </div>
 
     <div class="form-group">
     <img src="\AGRO\imagenes\ENCONTR.png" alt="De mi tierrita" id="naranja">
         <label class="COMUNES1textobienvenida2" id="carac">Donde pueden encontrar su producto.<b></b></label>
     </div>
-
+    </div>
     <br>
 
     
@@ -69,15 +76,14 @@
 <br>
 <br>
 <br>
-<br>
-<br>
+
 
 
 
 <div id ="container">
 <div id ="container">
 
-
+<div class="container">
 <form action="formulario2_pro.php" method="post">
 <div class="album py-5 bg-light">
 
@@ -85,7 +91,7 @@
 <div class="row">
 <div class="col-xs-4 col-sm-12">
 <div class="ESTILOS1lineabajacampotexto">
-<input class="form-control"  type="text" name="direccion" placeholder="Escriba su direccion">
+<input class="form-control"  type="text" name="direccion" placeholder="Escriba su dirección">
 </div>
 </div>
 
@@ -94,7 +100,7 @@
 <div class="row">
 <div class="col-xs-4 col-sm-12">
 <div class="ESTILOS1lineabajacampotexto">
-<input class="form-control"  type="text" name="punto_referencia" placeholder="Cuentenos como podemos encontrarlo.Ejemplo. Cerca a la iglesia">
+<input class="form-control"  type="text" name="punto_referencia" placeholder="Cuéntenos como podemos encontrarlo.Ejemplo. Cerca a la iglesia">
 </div>
 </div>
 
@@ -153,6 +159,7 @@ $ejecutar=mysqli_query( $con,$consulta );
 </div>
 
 
+</div>
 </div>
 
      <br>
@@ -263,7 +270,7 @@ opacity: 1;
 #rectangle{
 top: 117px;
 left: 0px;
-width: 1200px;
+width: 1115px;
 height: 88px;
 background: #F9F9F8 0% 0% no-repeat padding-box;
 opacity: 1;}

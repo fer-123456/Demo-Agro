@@ -1,3 +1,9 @@
+<?php
+session_start();
+$usuario=$_SESSION['username'];
+
+?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -23,6 +29,8 @@
     <div class="row-12">
     <div class="">
       <img src="\AGRO\imagenes\ENCABEZADOLogo.png" alt="De mi tierrita">
+      <a href="" style="float:right;" ><?php echo "<h2>! hola $usuario ¡</h2>"?> </a><br>
+       <a href="destroysesion.php" style="left : 950px; position :relative; top : -50px;" ><?php echo "<h6>!Cerrar sesion ¡</h6>"?></a> 
     </div>
     </div>
 </div>
@@ -42,22 +50,24 @@
     <div id="rectangle">
     
           <div id="circulo"><h3 id="hp">Producto</h3></div> 
-          <div id="circulo1"><h3 id="hc">Caracateristica</h3></div>  
-          <div id="circulo2"><h3 id="hu">Ubicacion</h3></div>
+          <div id="circulo1"><h3 id="hc">Caracteristicas</h3></div>  
+          <div id="circulo2"><h3 id="hu">Ubicación</h3></div>
 
       
          <br>
-          <div class="form-group">
-              <label class="COMUNES1textobienvenida2" for="">Para publicar el producto necesitamos algunos datos<b></b></label>
-          </div>
-  </div>
+          
+  </div><br>
 
 
     
        <div class="row-12">
            <div class="">
+           <div class="form-group">
+              <label class="COMUNES1textobienvenida3" for=""><b>Para publicar el producto necesitamos algunos datos</b></label>
+          </div>
+
              <img src="\AGRO\imagenes\fruit.png" alt="De mi tierrita" id="fruit">
-             <label id="texto">Seleccione que producto va a vender<b></b></label>
+             <label id="texto" class="COMUNES1textobienvenida6">Seleccione que producto va a vender :<b></b></label>
              <input  id="frutas" name="nombre" placeholder="Buscar producto">
            </div>
        </div>
@@ -100,12 +110,12 @@
                </div>
             <div class="col-md-3">
               <div class="card mb-4 box-shadow">
-                <img src="/AGRO/imagenes/276.png" alt="De mi tierrita">
+                <img src="/AGRO-RISARALDA/imagenes/Lulo-01.png" alt="De mi tierrita">
                   <!-- <div class="card-body"> -->
                     <label class="ESTILOS1centrado1"></label>
                     <label class="ESTILOS1centrado1">Frutas</label>
                     <label class="ESTILOS1centrado2">Apia</label>
-                    <label class="ESTILOS1centrado3">Naranja Valencia</label>
+                    <label class="ESTILOS1centrado3">Lulos</label>
                     <label class="ESTILOS1centrado4">1300 Kg</label>
               </div>
             </div>
@@ -161,14 +171,14 @@ opacity: 1;
     #texto{
         position:relative;
         top: 0px;
-        left: 144px;
+        left: 20px;
 
     }
 
     #fruit{
         position:relative;
         top: 0px;
-        left: 144px;
+        left: 10px;
         width: 57px;
         height: 57px;
         opacity: 1;
@@ -207,7 +217,7 @@ opacity: 1;
 #rectangle{
 top: 117px;
 left: 0px;
-width: 1200px;
+width: 1113px;
 height: 88px;
 background: #F9F9F8 0% 0% no-repeat padding-box;
 opacity: 1;}

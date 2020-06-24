@@ -9,6 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="/AGRO-RISARALDA/Estilos/Estilos.css">
+    <link rel="stylesheet" type="text/css" href="/AGRO-RISARALDA/Estilos/confirmacion.css">
 
     <title>Crear Cuenta Productor</title>
 
@@ -29,19 +30,21 @@
 </div>
 
 <div class="container">
+
   <div class="form-group">
         <br>
         <hr style="COMUNES1separadorinicio">
     </div>
 </div>
-
+<div id="rectangulo1">
 <div class="container">
+
   <div class="row">
       <div class="col-3">
       </div>
             <div class="col-6">
             <div class="form-group">
-            <label class="COMUNES1textobienvenida4" for=""><b>¡Hola!</b></label><br>
+            <label class="COMUNES1textobienvenida4" for="" style="position: relative; left: 130px;"><b>¡Hola!</b></label><br>
             <label class="COMUNES1textobienvenida5" for="">Recuerde que para ofrecer sus servicios debe entrar a su cuenta con su número de teléfono y su clave personal</label>
             </div>
             </div>
@@ -89,6 +92,7 @@
             </div>
           </div>
 </div>
+</div>
 
         <br>
 
@@ -96,7 +100,7 @@
             <div class="row">
                 <div class="col">
 
-                <button type="submit" class="ESTILOS1botones" name="continuar">CONTINUAR</button>
+                <button type="submit" class="ESTILOS1botones" name="continuar" style="position: relative; top : -100px; left:30px;">CONTINUAR</button>
 
               </div>
         </div>
@@ -111,18 +115,18 @@
         </div>
         <div class="col-3">
           <div class="ESTILOS1centrado">
-            <a class="COMUNES1links1" href="P_Registro_Productor.php">Crear Cuenta</a>
+            <a class="COMUNES1links1" href="P_Registro_Productor.php" style="position: relative; top : -100px; left:30px;">Crear Cuenta</a>
           </div>
         </div>
         <div class="col-3">
           <div class="ESTILOS1centrado">
-            <a class="COMUNES1links2" href="#">Olvide mi contraseña</a>
+            <a class="COMUNES1links2" href="#" style="position: relative; top : -100px; left:30px;">Olvide mi contraseña</a>
           </div>
         </div>
         <div class="col-3">
         </div>
     </div>
-</div>
+    </div>
 
 
 <!-- footer -------------------------------------------->
@@ -139,12 +143,12 @@
   <div class="row">
         <div class="col-6">
           <div class="COMUNES1llamenos">
-            <img src="\PRUEBAS\imagenes\FOOTERcontactotelefono.jpg" alt="Llame al 318 7076267"><label for="">Llame al 310 246 5678    ó &nbsp</label>
+            <img src="\AGRO-RISARALDA\imagenes\FOOTERcontactotelefono.jpg" ><label for="">Llame al 310 246 5678    ó &nbsp</label>
           </div>
         </div>
         <div class="col-6">
           <div class="COMUNES1escribanos">
-        <a href="https://api.whatsapp.com/send?phone=3187076267&text=Bienvenido%20al%20soporte%20De%20Mi%20Tierrita.%20En%20que%20podemos%20ayudarte?" target="_blank" class="COMUNES1escribanos"><label for=""><u>Escríbanos para responderle</u></label><img src="\PRUEBAS\imagenes\FOOTERcontactochat.jpg" alt="Escríbanos para responderle">
+        <a href="https://api.whatsapp.com/send?phone=3187076267&text=Bienvenido%20al%20soporte%20De%20Mi%20Tierrita.%20En%20que%20podemos%20ayudarte?" target="_blank" class="COMUNES1escribanos"><label for=""><u>Escríbanos para responderle</u></label><img src="\AGRO-RISARALDA\imagenes\FOOTERcontactochat.jpg" >
         </div>
         </div>
     </div>

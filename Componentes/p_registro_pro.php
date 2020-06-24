@@ -46,7 +46,7 @@ if (strcmp($password, $conpassword) === 0){
     echo'<script type="text/javascript">
 
                         alert("Datos guardados correctamente");
-                        location.href = "regproducto.php";
+                        location.href = "C_Login_productor.php";
                         </script>';
 
     
@@ -56,8 +56,8 @@ else{
 
     echo'<script type="text/javascript">
     alert("Las contraseñas  no son las mismas");
+    location.href = "P_Registro_Productor.php";
     
-
     </script>';
 
 

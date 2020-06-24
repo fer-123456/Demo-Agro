@@ -18,7 +18,7 @@ $filas=mysqli_num_rows($existe);
 if ($filas > 0){
 
   $_SESSION['username'] = $login1;
-  header('Location: inicio2.php');
+  header('Location: regproducto.php');
   
                 }
                   else{
